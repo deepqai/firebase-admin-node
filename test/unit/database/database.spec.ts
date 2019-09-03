@@ -23,7 +23,7 @@ import * as sinon from 'sinon';
 import * as mocks from '../../resources/mocks';
 import {FirebaseApp} from '../../../src/firebase-app';
 import {DatabaseService} from '../../../src/database/database';
-import {Database} from '@firebase/database';
+import {Database} from '@deepqai/firebase-database';
 import * as utils from '../utils';
 import { HttpClient, HttpRequestConfig } from '../../../src/utils/api-request';
 

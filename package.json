@@ -1,5 +1,5 @@
 {
-  "name": "firebase-admin",
+  "name": "@deepqai/firebase-admin",
   "version": "8.4.0",
   "description": "Firebase admin SDK for Node.js",
   "author": "Firebase <firebase-support@google.com> (https://firebase.google.com/)",
@@ -43,7 +43,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/firebase/firebase-admin-node"
+    "url": "https://github.com/deepqai/firebase-admin-node"
   },
   "main": "lib/index.js",
   "files": [
@@ -54,7 +54,7 @@
   ],
   "types": "./lib/index.d.ts",
   "dependencies": {
-    "@firebase/database": "^0.5.1",
+    "@deepqai/firebase-database": "^0.5.1",
     "@types/node": "^8.0.53",
     "dicer": "^0.3.0",
     "jsonwebtoken": "8.1.0",

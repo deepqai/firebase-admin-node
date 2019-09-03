@@ -37,7 +37,7 @@ import {Auth} from '../../src/auth/auth';
 import {Messaging} from '../../src/messaging/messaging';
 import {Storage} from '../../src/storage/storage';
 import {Firestore} from '@google-cloud/firestore';
-import {Database} from '@firebase/database';
+import {Database} from '@deepqai/firebase-database';
 import {InstanceId} from '../../src/instance-id/instance-id';
 import {ProjectManagement} from '../../src/project-management/project-management';
 import { FirebaseAppError, AppErrorCodes } from '../../src/utils/error';
