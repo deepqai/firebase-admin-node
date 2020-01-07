@@ -1,5 +1,5 @@
 {
-  "name": "firebase-admin",
+  "name": "@deepqai/firebase-admin",
   "version": "8.9.0",
   "description": "Firebase admin SDK for Node.js",
   "author": "Firebase <firebase-support@google.com> (https://firebase.google.com/)",
