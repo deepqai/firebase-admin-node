@@ -35,7 +35,7 @@ import {
   Query,
   Reference,
   ServerValue,
-} from '@firebase/database';
+} from '@deepqai/firebase-database';
 import {Messaging} from '../../src/messaging/messaging';
 import {Storage} from '../../src/storage/storage';
 import {

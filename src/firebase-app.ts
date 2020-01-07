@@ -24,7 +24,7 @@ import {AppErrorCodes, FirebaseAppError} from './utils/error';
 import {Auth} from './auth/auth';
 import {Messaging} from './messaging/messaging';
 import {Storage} from './storage/storage';
-import {Database} from '@firebase/database';
+import {Database} from '@deepqai/firebase-database';
 import {DatabaseService} from './database/database';
 import {Firestore} from '@google-cloud/firestore';
 import {FirestoreService} from './firestore/firestore';

@@ -4,7 +4,7 @@ import * as path from 'path';
 import {FirebaseApp} from '../firebase-app';
 import {FirebaseDatabaseError, AppErrorCodes, FirebaseAppError} from '../utils/error';
 import {FirebaseServiceInterface, FirebaseServiceInternalsInterface} from '../firebase-service';
-import {Database} from '@firebase/database';
+import {Database} from '@deepqai/firebase-database';
 
 import * as validator from '../utils/validator';
 import { AuthorizedHttpClient, HttpRequestConfig, HttpError } from '../utils/api-request';
@@ -33,7 +33,7 @@ class DatabaseInternals implements FirebaseServiceInternalsInterface {
   }
 }
 
-declare module '@firebase/database' {
+declare module '@deepqai/firebase-database' {
   interface Database {
     getRules(): Promise<string>;
     getRulesJSON(): Promise<object>;
@@ -77,7 +77,7 @@ export class DatabaseService implements FirebaseServiceInterface {
 
     let db: Database = this.INTERNAL.databases[dbUrl];
     if (typeof db === 'undefined') {
-      const rtdb = require('@firebase/database');
+      const rtdb = require('@deepqai/firebase-database');
       const { version } = require('../../package.json');
       db = rtdb.initStandalone(this.appInternal, dbUrl, version).instance;
 
